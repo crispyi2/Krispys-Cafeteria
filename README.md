@@ -12,8 +12,9 @@ haxelib install http-server
 # build
 - html5
 ```
-lime build html5
+lime test html5
 ```
+go to localhost:3000
 - linux
 ```
 
@@ -25,8 +26,4 @@ lime build html5
 - osx
 ```
 
-```
-# start a server for html5
-```
-haxelib run http-server -p 3000 export/html5/bin -o
 ```
