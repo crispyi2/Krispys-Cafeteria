@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+  <animatronicData>
+    <activeAnimatronics>
+      <Krispy>
+        <active>false</active>
+        <Difficulty>0</Difficulty>
+        <behaviorScript>Krispy.hx</behaviorScript>
+      </Krispy>
+      <Kristy>
+        <active>false</active>
+        <difficulty>0</difficulty>
+        <behaviorScript>Kristy.hx</behaviorScript>
+      </Kristy>
+      <Chilly>
+        <active>false</active>
+        <difficulty>0</difficulty>
+        <behaviorScript>Chilly.hx</behaviorScript>
+      </Chilly>
+      <Ben>
+        <active>false</active>
+        <difficulty>0</difficulty>
+        <behaviorScript>Ben.hx</behaviorScript>
+      </Ben>
+      <Millie>
+        <active>true</active>
+        <difficulty>3</difficulty>
+        <behaviorScript>Millie.hx</behaviorScript>
+      </Millie>
+    </activeAnimatronics>
+  </animatronicData>
+</settings>

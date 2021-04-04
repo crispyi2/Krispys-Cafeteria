@@ -14,7 +14,7 @@ haxelib install http-server
 ```
 lime test html5
 ```
-go to localhost:3000
+go to https://localhost:3000
 - linux
 ```
 
