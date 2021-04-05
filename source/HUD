@@ -1,0 +1,33 @@
+package;
+
+ import flixel.FlxG;
+ import flixel.FlxSprite;
+ import flixel.group.FlxGroup.FlxTypedGroup;
+ import flixel.text.FlxText;
+ import flixel.util.FlxColor;
+ import flixel.util.FlxState
+
+ using flixel.util.FlxSpriteUtil;
+
+ class HUD extends FlxTypedGroup<FlxSprite>
+ {
+     var batteryPercent:FlxText;
+	 var time:FlxText;
+	 var batterySprite:FlxSprite;
+
+     public function new()
+     {
+         super();
+         batteryPercent = new FlxText(20, 0, 0, "100 %", 8);
+		 time = new FlxText(-20, 0, 0, "12 AM", 8);
+		 add(batteryPercent);
+		 add(time)
+		 forEach(function(sprite) sprite.scrollFactor.set(0, 0));
+     }
+
+     public function updateHUD(batteryPercent:Int, time:Int)
+     {
+         batteryPercent.text = batteryPercent + " %";
+		 time.text = time + " AM";
+     }
+ }
