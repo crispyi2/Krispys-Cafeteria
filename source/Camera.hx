@@ -1,7 +1,6 @@
 package;
 
  import flixel.FlxG;
- import flixel.input.mouse.FlxMouse;
 
  class Room extends FlxSprite
  {

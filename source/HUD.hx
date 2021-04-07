@@ -5,29 +5,29 @@ package;
  import flixel.group.FlxGroup.FlxTypedGroup;
  import flixel.text.FlxText;
  import flixel.util.FlxColor;
- import flixel.util.FlxState
 
  using flixel.util.FlxSpriteUtil;
 
  class HUD extends FlxTypedGroup<FlxSprite>
  {
      var batteryPercent:FlxText;
-	 var time:FlxText;
+	 var Time:FlxText;
 	 var batterySprite:FlxSprite;
 
      public function new()
      {
          super();
-         batteryPercent = new FlxText(20, 0, 0, "100 %", 8);
-		 time = new FlxText(-20, 0, 0, "12 AM", 8);
+         batteryPercent = new FlxText(16, 2, 0, "100 %", 20);
+		 Time = new FlxText(-16, 2, FlxG.width, "12 AM", 20);
+		 Time.alignment = "right";
 		 add(batteryPercent);
-		 add(time)
+		 add(Time);
 		 forEach(function(sprite) sprite.scrollFactor.set(0, 0));
      }
 
-     public function updateHUD(batteryPercent:Int, time:Int)
+     public function updateHUD(battery:Int, time:Int)
      {
-         batteryPercent.text = batteryPercent + " %";
-		 time.text = time + " AM";
+         batteryPercent.text = battery + " %";
+		 Time.text = time + " AM";
      }
  }

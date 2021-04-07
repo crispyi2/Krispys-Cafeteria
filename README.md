@@ -27,3 +27,9 @@ go to https://localhost:3000
 ```
 
 ```
+# about
+## game info
+### animatronics
+| Krispy | Kristy | Millie | Ben | Chilly |
+|--------|--------|--------|-----|--------|
+|    ![Krispy](readme/krispyi2.png)     |        |        |     |        |
