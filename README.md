@@ -1,5 +1,5 @@
 # Krispys-Cafeteria
-
+### this game is still very much a work in progress
 # Installation
 
 - install haxe 4.1.5
