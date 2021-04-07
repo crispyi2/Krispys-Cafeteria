@@ -32,4 +32,4 @@ go to https://localhost:3000
 ### animatronics
 | Krispy | Kristy | Millie | Ben | Chilly |
 |--------|--------|--------|-----|--------|
-|    ![Krispy](readme/krispyi2.png)     |        |        |     |        |
+|    ![Krispy](readme/krispyi2.png)     |    ![Kristy](readme/Kristy.png)    |        |     |        |
