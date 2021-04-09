@@ -1,21 +1,15 @@
 package;
 
  import flixel.FlxSprite;
+ import flixel.ui.FlxButton;
  import flixel.util.FlxColor;
  import flixel.input.mouse.FlxMouseEventManager;
 
- class Computer extends FlxSprite
+ class Computer extends FlxButton
  {
-    public function new(x:Float = 0, y:Float = 0)
+    public function new(x:Float = 0, y:Float = 0, ?Text:String)
     {
-         super(x, y);
+         super(x, y, Text, Onclick);
 		 loadGraphic("assets/images/officeAssets/Computer_Placeholder.png");
-		 
-		 FlxMouseEventManager.add(this, onMouseDown, onMouseUp, onMouseOver, onMouseOut);
-		 
-		 function onMouseDown(computer:FlxSprite) { color = 0x00000000; }
-		 function onMouseUp(computer:FlxSprite) {}
-		 function onMouseOver(computer:FlxSprite) { color = 0xFFFFFF; }
-		 function onMouseOut(computer:FlxSprite) {color = 0x00000000;}
     }
  }

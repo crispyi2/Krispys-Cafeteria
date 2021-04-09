@@ -3,7 +3,7 @@ package;
 import flixel.FlxSprite;
 import flixel.util.FlxColor;
 
-class RightDoor extends FlxSprite
+class Vent extends FlxSprite
  {
      public function new(x:Float = 0, y:Float = 0)
      {

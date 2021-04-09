@@ -2,6 +2,7 @@ package;
 
  import flixel.FlxG;
  import flixel.FlxSprite;
+ import flixel.ui.FlxButton;
  import flixel.group.FlxGroup.FlxTypedGroup;
  import flixel.text.FlxText;
  import flixel.util.FlxColor;
@@ -13,6 +14,7 @@ package;
      var batteryPercent:FlxText;
 	 var Time:FlxText;
 	 var batterySprite:FlxSprite;
+	 var LookLeft:FlxButton;
 
      public function new()
      {
